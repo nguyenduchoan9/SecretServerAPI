@@ -1,1 +1,21 @@
-# SecretServerAPI
+![Demo](http://g.recordit.co/cgOreIqQDu.gif)
+# CoderSchool Golang Course - SecretServerAPI
+
+1. **Submitted by:** Arthur Nguyen
+2. **Time spent:** 2 days
+
+## Introduction
+
+Your task is to implement a secret server. The secret server can be used to store and share secrets using the random generated URL. But the secret can be read only a limited number of times after that it will expire and won’t be available. The secret may have TTL. After the expiration time the secret won’t be available anymore. You can find the detailed API documentation in the swagger.yaml file. We recommend to use Swagger or any other OpenAPI implementation to read the documentation.
+
+Here is the swagger.yaml, what describes the Secret Server API
+
+## Task
+**Implementation**: You have to implement the whole Secret Server API. You can choose the database you want to use, however it would be wise to store the data using encryption. The response can be XML or JSON too. Use a configuration file to switch between the two response type.
+
+## Requirements
+* [x] Ipmlement the API what listen and server on the endpoints what swagger.yaml describes.
+Bonus
+* [x] Use data encryption for stored data
+* [x] Deploy your server. There are many of free solutions to do this.
+* [x] Monitor number of requests and their response time.
