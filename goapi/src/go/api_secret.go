@@ -14,8 +14,8 @@ import (
 	"net/http"
 	"strings"
 
-	hashKeyRepo "github.com/nguyendhoan9/coderschool.go/assignment.2/goapi/src/repo"
-	"github.com/nguyendhoan9/coderschool.go/assignment.2/goapi/src/requestParams"
+	hashKeyRepo "github.com/nguyenduchoan9/coderschool.go/assignment.2/goapi/src/repo"
+	"github.com/nguyenduchoan9/coderschool.go/assignment.2/goapi/src/requestParams"
 )
 
 func AddSecret(w http.ResponseWriter, r *http.Request) {

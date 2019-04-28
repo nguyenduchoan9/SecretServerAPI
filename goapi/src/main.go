@@ -22,8 +22,8 @@ import (
 	//
 	//    sw "github.com/myname/myrepo/go"
 	//
-	db "github.com/nguyendhoan9/coderschool.go/assignment.2/goapi/src/db"
-	sw "github.com/nguyendhoan9/coderschool.go/assignment.2/goapi/src/go"
+	db "github.com/nguyenduchoan9/coderschool.go/assignment.2/goapi/src/db"
+	sw "github.com/nguyenduchoan9/coderschool.go/assignment.2/goapi/src/go"
 )
 
 func main() {

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	db "github.com/nguyendhoan9/coderschool.go/assignment.2/goapi/src/db"
-	encrypt "github.com/nguyendhoan9/coderschool.go/assignment.2/goapi/src/encryption"
-	"github.com/nguyendhoan9/coderschool.go/assignment.2/goapi/src/model"
+	db "github.com/nguyenduchoan9/coderschool.go/assignment.2/goapi/src/db"
+	encrypt "github.com/nguyenduchoan9/coderschool.go/assignment.2/goapi/src/encryption"
+	"github.com/nguyenduchoan9/coderschool.go/assignment.2/goapi/src/model"
 )
 
 func AddSecret(originalSecret string, expireAfterViews int, expireAfter int) (*model.HashKey, *model.AppError) {

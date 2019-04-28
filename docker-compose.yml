@@ -4,7 +4,7 @@ services:
     image: golang:1.12
     volumes:
       - ./goapi/src:/go/src/goapi
-      - ./goapi/src:/go/src/github.com/nguyendhoan9/coderschool.go/assignment.2/goapi/src
+      - ./goapi/src:/go/src/github.com/nguyenduchoan9/coderschool.go/assignment.2/goapi/src
     working_dir: /go/src/goapi
     ports:
       - "8080:8080"

@@ -4,7 +4,7 @@ global:
   # scrape_timeout is set to the global default (10s).
 
 scrape_configs:
-  - job_name: uber_api
+  - job_name: secret_api
     metrics_path: "/metrics"
     static_configs:
       - targets:
