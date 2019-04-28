@@ -17,5 +17,5 @@ Here is the [swagger.yaml](https://gist.github.com/olivernadj/76abe003e4979ce36c
 * [x] Ipmlement the API what listen and server on the endpoints what swagger.yaml describes.
 Bonus
 * [x] Use data encryption for stored data
-* [x] Deploy your server. There are many of free solutions to do this.
+* [ ] Deploy your server. There are many of free solutions to do this.
 * [x] Monitor number of requests and their response time.
